@@ -79,6 +79,7 @@ class RechercheHit:
     pdf_url: str | None = None
     detail_url: str | None = None
     anhaenge: list[dict[str, str]] = field(default_factory=list)
+    personenkreis: str | None = None  # nur bei typ == "Personen"
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -92,6 +93,7 @@ class RechercheHit:
             "pdf_url": self.pdf_url,
             "detail_url": self.detail_url,
             "anhaenge": self.anhaenge,
+            "personenkreis": self.personenkreis,
         }
 
 
@@ -352,13 +354,39 @@ class RechercheClient:
                     gremium = sm.group(2).strip()
                 continue
 
+            # Personen-Link (Personen-Tabelle): /personen/?__=… – Personenseite
+            # als detail_url (Verlinkung für find_person/person_steckbrief).
+            if "/personen/" in href and detail_url is None:
+                detail_url = abs_href
+                continue
+
         subject = tr.select_one("span.search_result_subject")
-        titel = subject.get_text(" ", strip=True) if subject else (vorlage_kennung or "")
+        titel = subject.get_text(" ", strip=True) if subject else ""
+        if not titel and typ == "Personen":
+            # Personen-Tabelle: Name steht in der ersten Spalte (Name-Link),
+            # nicht im Suchbegriff-Subject.
+            name_cell = tr.select_one("td[class*='gesamteBezeichnung'] a")
+            if name_cell:
+                titel = name_cell.get_text(" ", strip=True)
+        if not titel:
+            titel = vorlage_kennung or ""
 
         matches = tr.select("span.search_match")
         fundstelle = self._build_fundstelle(tr, matches) if matches else None
 
         datum = self._extract_datum(tr)
+
+        # Personen-Tabelle (table2): zweite Spalte = Personenkreis (z.B. Fraktion,
+        # "Sachkundiger Bürger", „Mitglieder (AC)“). Wir extrahieren bewusst NUR
+        # diesen strukturierten Kreis – die Adresse (dritte Spalte) bleibt auf der
+        # Personenseite (detail_url) und wird hier NICHT mitgeliefert (Datenminimierung).
+        personenkreis: str | None = None
+        if typ == "Personen":
+            pk_cell = tr.find("td", class_=re.compile("personenkreis", re.I))
+            if pk_cell:
+                pk_text = pk_cell.get_text(" ", strip=True)
+                if pk_text and pk_text.lower() != "keine angabe":
+                    personenkreis = pk_text
 
         if not (titel or pdf_url or detail_url):
             return None
@@ -374,6 +402,7 @@ class RechercheClient:
             pdf_url=pdf_url,
             detail_url=detail_url,
             anhaenge=anhaenge,
+            personenkreis=personenkreis,
         )
 
     def _build_fundstelle(self, tr, matches) -> str | None:

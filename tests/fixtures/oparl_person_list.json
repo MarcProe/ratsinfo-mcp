@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": "/body/1/person/101",
+      "name": "Dr. Max Mustermann",
+      "termOfElection": ["2020-10-01", "2025-09-30"],
+      "organizationIds": [{"id": 5, "name": "CDU"}],
+      "committeeAssignments": [
+        {"committeeName": "Rat", "functionName": null, "fromDate": "2020-10-01", "toDate": "2025-09-30"},
+        {"committeeName": "Finanzausschuss", "functionName": "Mitglied", "fromDate": "2020-10-01", "toDate": "2025-09-30"}
+      ]
+    },
+    {
+      "id": "/body/1/person/102",
+      "name": "Anna Müller",
+      "termOfElection": ["2020-10-01", null],
+      "organizationIds": [{"id": 6, "name": "GRÜNE"}],
+      "committeeAssignments": [
+        {"committeeName": "Rat", "functionName": null, "fromDate": "2020-10-01", "toDate": null},
+        {"committeeName": "Schulausschuss", "functionName": "Vorsitzende", "fromDate": "2020-10-01", "toDate": null}
+      ]
+    },
+    {
+      "id": "/body/1/person/103",
+      "name": "Max Müller",
+      "termOfElection": ["2015-10-01", "2020-09-30"],
+      "organizationIds": [{"id": 7, "name": "SPD"}],
+      "committeeAssignments": [
+        {"committeeName": "Rat", "functionName": null, "fromDate": "2015-10-01", "toDate": "2020-09-30"}
+      ]
+    },
+    {
+      "id": "/body/1/person/104",
+      "name": "Petra Beispiel",
+      "termOfElection": ["2020-10-01", null],
+      "organizationIds": [{"id": 7, "name": "SPD"}],
+      "committeeAssignments": [
+        {"committeeName": "Rat", "functionName": null, "fromDate": "2020-10-01", "toDate": null},
+        {"committeeName": "Finanzausschuss", "functionName": null, "fromDate": "2020-10-01", "toDate": null},
+        {"committeeName": "Schulausschuss", "functionName": null, "fromDate": "2020-10-01", "toDate": null}
+      ]
+    },
+    {
+      "id": "/body/1/person/105",
+      "name": "Otto Beispiel",
+      "termOfElection": ["2020-10-01", null],
+      "organizationIds": [{"id": 6, "name": "GRÜNE"}],
+      "committeeAssignments": [
+        {"committeeName": "Rat", "functionName": null, "fromDate": "2020-10-01", "toDate": null}
+      ]
+    }
+  ],
+  "pagination": {"page": 1, "totalPages": 1}
+}

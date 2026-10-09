@@ -277,3 +277,22 @@ def test_hit_to_dict_shape():
     assert d["typ"] == "Dokumente"
     assert d["anhaenge"] == []
     assert d["datum"] is None
+    assert d["personenkreis"] is None
+
+
+def test_parse_personenkreis_and_personen_url(results_html):
+    """Personen-Tabelle: Personenkreis (2. Spalte) + Personenseite (detail_url).
+
+    Die Adresse (3. Spalte) wird bewusst NICHT extrahiert (Datenminimierung).
+    """
+    rec = _client_with_results(results_html)
+    result = rec._parse(results_html, SearchParams(terms="Teststadt", typ="2", count=50))
+    person_hits = [h for h in result.hits if h.typ == "Personen"]
+    assert person_hits, "results_sample.html enthält Personen-Treffer"
+    first = person_hits[0]
+    assert first.titel == "Herr Lutz Ackermann"
+    assert first.personenkreis == "Sachkundiger Bürger"
+    assert first.detail_url and "/personen/" in first.detail_url
+    # Kein Adressfeld im Treffer (bewusst nicht extrahiert).
+    d = first.to_dict()
+    assert not any("Kuhstraße" in str(v) for v in d.values() if v)

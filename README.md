@@ -19,19 +19,25 @@ beliebigen RIM-Instanz unverändert läuft; instanzspezifische Merkmale
 (Träger-Name, Vorlagen-Periodisierung, count-Verhalten) werden
 **automatisch erkannt** und nicht manuell gepflegt.
 
-## 5 Tools
+## 8 Tools
 
 | Tool | Zweck |
 |------|-------|
-| `recherche` | Volltext-Recherche **inkl. indizierter PDF-Volltexte** (Fundstelle mit `<mark>`); optional mit OParl-Metadaten-Anreicherung |
+| `recherche` | Volltext-Recherche **inkl. indizierter PDF-Volltexte** (Fundstelle mit `<mark>`); optional mit OParl-Metadaten-Anreicherung (Papers) bzw. OParl-Personen-Anreicherung bei `dokumenttyp=personen` |
 | `pdf_as_markdown` | Lädt ein RIS-PDF und liefert den Volltext als Markdown (Seiten-/Begriffs-Filter, Zeichen-Cap) |
 | `meeting_documents` | Metadaten einer Sitzung (`/tops/`) oder eines Vorgangs (`/vorgang/`) inkl. aller PDF-URLs, pro TOP gruppiert |
 | `find_meetings` | Sitzungen aus dem ICS-Termin-Feed (Gremium, Datum, Ort, `tops_url`) |
+| `find_person` | Strukturierte Personensuche: OParl-Personen-Index der Instanz (Name, Fraktion, Gremien, Mandatszeit, `oparl_id`) + HTML-Personenindex als Komplement; ohne Adresse (Datenminimierung) |
+| `person_steckbrief` | Vorgefertigte Personen-Steckbrief-Karte (Markdown/HTML), deterministisch gerendert, ohne zweites LLM; mehrdeutige Namen liefern Kandidaten statt einer Karte |
+| `committee_members` | Mitglieder eines Gremiums (`/committee/{id}/person`), Gremiennamen normalisiert aufgelöst |
 | `terms_of_use` | Nutzungsbedingungen/Impressum/Datenschutz der Instanz: Discovery (ToS-Links finden) + Extraktion (Haupttext + Keyword-Flags) — damit das aufrufende LLM selbst prüfen kann, unter welchen Bedingungen Dokumente zitiert/aufbereitet werden dürfen |
 
 Typischer Agent-Fluss: `recherche` → (Treffer mit `detail_url`/TOP) →
 `meeting_documents` → `pdf_as_markdown` auf das eine PDF. Bei
-Wiederverwendungsfragen: `terms_of_use`.
+Wiederverwendungsfragen: `terms_of_use`. Personen-Fluss:
+`find_person` → `person_steckbrief` (einmalig aufgelöst) bzw.
+`committee_members` (Gremien) und `recherche(volltext=<name>)` für
+Dokumente, in denen die Person vorkommt.
 
 ## Konfiguration (Env)
 
@@ -47,8 +53,10 @@ Wiederverwendungsfragen: `terms_of_use`.
 | `RIS_USER_AGENT` | `ratsinfo-mcp/<ver>` | User-Agent (klar erkennbar als Read-only-Client) |
 | `RIS_PDF_MAX_BYTES` | `20971520` (20 MB) | PDF-Größen-Limit (Guard) |
 | `RIS_PDF_MAX_SEITEN` | `500` | PDF-Seiten-Limit (Guard) |
-| `OPARL_ENRICH` | `0` | `1` = OParl-Metadaten-Anreicherung der Suchtreffer (verlängert Laufzeit) |
+| `OPARL_ENRICH` | `0` | `1` = OParl-Metadaten-Anreicherung der Suchtreffer (Papers) + OParl-Personen-Anreicherung bei `dokumenttyp=personen` (verlängert Laufzeit) |
 | `OPARL_MAX_PAGES` | `8` | OParl: max. Paper-Index-Seiten für die Anreicherung |
+| `OPARL_PERSON_MAX_PAGES` | `25` | OParl: max. Person-Index-Seiten (≈ 500 Personen) für `find_person`/`person_steckbrief` |
+| `OPARL_PERSON_TTL` | `86400` (24 h) | TTL des OParl-Personen-/Gremien-Index (Personen ändern sich seltener als Vorlagen) |
 
 ### Zwei Instanzen nebeneinander (MCP-Client-Konfig)
 
@@ -96,6 +104,18 @@ Instanz-Erkennung durch (pro Instanz ≈ 5–8 gedrosselte Requests, memoisiert)
 * **Read-only**: Der Server führt ausschließlich GET/POST-Requests aus, die
   auch der Browser-Client führt; keine Schreiboperationen, keine Sessions
   außerhalb der Anfrage.
+* **Nur RIM-Daten, keine externen Quellen**: Alle Requests gehen ausschließlich
+  an den konfigurierten Instanz-Host — OParl ist das Webdienst-Subsystem der
+  *selben* Instanz (gleicher Host, eigener Datenbestand). Keine
+  Stadt-Websites, keine Portale, keine Cross-Instanz-Verknüpfungen.
+* **Datenminimierung (Personen)**: `find_person`/`person_steckbrief` liefern
+  nur, was das RIM selbst öffentlich abbildet (Name, Personenkreis/Fraktion,
+  Gremien, Mandatszeit); **Adressen werden bewusst nicht mitgeliefert** — sie
+  bleiben auf der Personenseite (`personen_url`), die verlinkt wird.
+* **Personen-Index-Caches**: OParl-Personen- und Gremien-Index werden
+  seitenbegrenzt geladen und mit TTL gecacht (`OPARL_PERSON_MAX_PAGES`,
+  `OPARL_PERSON_TTL`) — deutlich geduldiger mit der Ziel-Infrastruktur als
+  Vorlagen, die sich häufiger ändern.
 
 ## Grenzen
 
@@ -106,9 +126,17 @@ Instanz-Erkennung durch (pro Instanz ≈ 5–8 gedrosselte Requests, memoisiert)
   klarer Diagnose ab, statt leere Ergebnisse zu liefern.
 * `terms_of_use` ruft **kein** zweites LLM auf — es liefert deterministisch
   Text + Keyword-Flags; die semantische Bewertung der Wiederverwendungs-
-  Bedingungen liegt beim aufrufenden Agenten.
+  Bedingungen liegt beim aufrufenden Agenten. Gleiches gilt für
+  `person_steckbrief`: deterministische Vorlage, keine semantische Bewertung.
 * Die Recherche liefert pro Suchlauf je Dokumenttyp die **erste Trefferseite**
   (max. 25 Zeilen; RIM-limits). `limit` begrenzt zusätzlich.
+* `find_person`/`person_steckbrief` sind **best effort** über die OParl-
+  Personen-Endpoints: Liegt `/body/1/person` nicht vor (ältere Instanz) oder
+  liefert es nichts, fällt das Tool auf den HTML-Personenindex zurück
+  (Name + Personenkreis + `personen_url`, ohne OParl-Metadaten). Die
+  HTML-Spalten der Personen-Tabelle (Name/Personenkreis) sind DOM-abhängig;
+  das Anschriftenfeld wird bewusst nicht gelesen — es bleibt auf der
+  verlinkten Personenseite.
 
 ## Tests
 
