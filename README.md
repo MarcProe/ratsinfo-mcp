@@ -1,5 +1,17 @@
 # ratsinfo-mcp · generischer MCP-Server für SD.NET RIM (Sternberg)
 
+> **⚠️ Hinweis: Inoffizielles Drittanbieter-Projekt**
+>
+> Diese Software ist ein **unabhängiges, inoffizielles Open-Source-Projekt**.
+> Sie steht in **keiner Verbindung** zu den Städten/Kommunen, die SD.NET RIM
+> einsetzen, und wird von diesen weder betrieben, unterstützt noch autorisiert.
+> Ebenso besteht **kein Verhältnis** zum Hersteller **SD.NET RIM / Sternberg
+> Software** — keine Partnerschaft, keine Kooperation, keine Freigabe.
+> „SD.NET RIM" und „Sternberg" sind Marken des jeweiligen Herstellers und
+> werden hier ausschließlich zur Produktidentifikation verwendet.
+> Nutzung auf eigene Verantwortung; die Betreiber der angebundenen
+> Ratsinformationssysteme tragen keine Haftung für dieses Projekt.
+
 MCP-Server für **SD.NET RIM** (Sternberg Software) Ratsinformationssysteme —
 generisch über alle Instanzen. Eine Instanz = eine URL, konfiguriert über
 `RIS_BASE_URL`. Der Server ist bewusst so gebaut, dass er auf einer
