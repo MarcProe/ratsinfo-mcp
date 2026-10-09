@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# uv
+uv.lock.bak
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets / lokale Konfiguration
+.env
+.env.*
+*.token
+
+# Test-/Temp-Dateien
+.pytest_cache/
+.coverage
+htmlcov/
+*.log

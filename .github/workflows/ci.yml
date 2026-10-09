@@ -1,0 +1,47 @@
+# CI: Testsuite + Build-Verifikation.
+#
+# Triggers:
+#   * jeder Pull-Request (Branch-PRs -> main)  -> Haupt-Use-Case des PR-Workflows
+#   * push nach main                           -> Schutz: main bleibt nie rot
+#
+# Wir arbeiten seit v0.3.x nur noch ueber PRs in Feature-Branches (siehe
+# README "Entwicklungsworkflow"); dieser Job ist die Pflicht-Prüfung, die vor
+# jedem Merge grün sein muss.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Auf dass neue Commits auf derselben Branch alte Läufe ersetzen.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests + Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      # --frozen: installiert strikt aus uv.lock. Scheitert, wenn Lockfile und
+      # pyproject divergieren (Schutz vor veralteten Locks im CI).
+      # Die dev-Gruppe (pytest) wird mitinstalliert.
+      - name: Sync dependencies (frozen, inkl. dev-Gruppe)
+        run: uv sync --frozen --group dev
+
+      - name: Run test suite (pytest)
+        run: uv run pytest -v
+
+      # Sicherstellen, dass das Paket (Wheel + sdist) sauber baut.
+      - name: Build package
+        run: uv build

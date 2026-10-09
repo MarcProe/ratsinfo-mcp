@@ -1,0 +1,28 @@
+[project]
+name = "ratsinfo-mcp"
+version = "0.4.0"
+description = "Generischer MCP-Server für SD.NET RIM (Sternberg) Ratsinformationssysteme – Volltext-Recherche inkl. PDF-Volltext, auto-erkannter Instanz-Profil"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.0,<2",
+    "pypdf>=4.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[project.scripts]
+ratsinfo-mcp = "ratsinfo_mcp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"

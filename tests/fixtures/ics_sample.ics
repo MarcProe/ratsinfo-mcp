@@ -1,0 +1,2526 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//SD.NET RIM v1.0//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:SD.NET RIM
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241008T160000
+DTEND;TZID=Europe/Berlin:20241008T170000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTfyGAhBMAvD83Jp16rHu18\n\nBemerkung:\nAufgrund der Abwesenheit der Verwaltungsspitze findet die Sitzung in Absprache mit der Ausschussvorsitzenden nicht statt.
+UID:2024104796
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241009T170000
+DTEND;TZID=Europe/Berlin:20241009T210500
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYECcDLb6qDx0GrW2m-XvKQ
+UID:2024104818
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241010T170000
+DTEND;TZID=Europe/Berlin:20241010T181400
+SUMMARY:Integrationsrat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQddKlZQmcELAAY_8g1FJM8
+UID:2024104823
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241028T170000
+DTEND;TZID=Europe/Berlin:20241028T190100
+SUMMARY:Rechnungsprüfungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZaBqIQMsk23fMlcfe86iV0A
+UID:2024104767
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241029T160000
+DTEND;TZID=Europe/Berlin:20241029T172000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRQy0OalixMat004ia0SczQ
+UID:2024104810
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241029T172000
+DTEND;TZID=Europe/Berlin:20241029T172700
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZd-xJz0sqx_QGR4oXNXySLM
+UID:2024104797
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241030T170000
+DTEND;TZID=Europe/Berlin:20241030T175100
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZaJKeoxfqCJazuz4BgFAZ3U
+UID:2024104819
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241031T170000
+DTEND;TZID=Europe/Berlin:20241031T192200
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTRir5cBakDMiFUuSFruK9c
+UID:2024105001
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241104T170000
+DTEND;TZID=Europe/Berlin:20241104T201800
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZf40xF3HWZclIoK1SlWT2WU
+UID:2024114737
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241105T170000
+DTEND;TZID=Europe/Berlin:20241105T174500
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZxm9nLwL-61k0_DIxt6ufI
+UID:2024114776
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241106T170000
+DTEND;TZID=Europe/Berlin:20241106T184500
+SUMMARY:Ausschuss für Kultur- und Stadtgestaltung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZd1IlniK_rzQnHfY_m6bli8
+UID:2024114735
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241107T170000
+DTEND;TZID=Europe/Berlin:20241107T183000
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVUS8KU7d0CJdIkDTc_bzCI
+UID:2024114731
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241111T170000
+DTEND;TZID=Europe/Berlin:20241111T205600
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfzZX0FkvZ24Fseiv2KR4Wg
+UID:2024114723
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241112T160000
+DTEND;TZID=Europe/Berlin:20241112T165100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZU5OMiiJM3BFRH8trliVjkM
+UID:2024114798
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241112T165300
+DTEND;TZID=Europe/Berlin:20241112T175800
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZZclhl_9M4qJJuGDgzQnmk
+UID:2024114811
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241113T170000
+DTEND;TZID=Europe/Berlin:20241113T184000
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQn6YAxWdlMQNGWVT8qz8Kc
+UID:2024114727
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241118T170000
+DTEND;TZID=Europe/Berlin:20241118T182400
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZX9hacyY6hVy1N4AeJOZP8k
+UID:2024114772
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241119T170000
+DTEND;TZID=Europe/Berlin:20241119T175500
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZS5Fjq8aI8ZItrP6hwK4ph4
+UID:2024114779
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241120T160000
+DTEND;TZID=Europe/Berlin:20241120T164100
+SUMMARY:Unterausschuss Jugendhilfeplanung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUf3eJhUG4QnRcPCy-ccRKI
+UID:2024114759
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241120T170000
+DTEND;TZID=Europe/Berlin:20241120T182800
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZX9mjJmGE6PcXNLi7ocZnWg
+UID:2024114755
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241126T160000
+DTEND;TZID=Europe/Berlin:20241126T163500
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfuJxLQczyLFUegg6yFgs6o
+UID:2024114799
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241126T163600
+DTEND;TZID=Europe/Berlin:20241126T164400
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTDJCFjW0l_UlNcear4wmBY
+UID:2024114812
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241126T170000
+DTEND;TZID=Europe/Berlin:20241126T171000
+SUMMARY:Wahlausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfm7ANIAZBsdJ2-Z8SkvMkc
+UID:2024115015
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241127T170000
+DTEND;TZID=Europe/Berlin:20241127T181000
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSTwn15AtioASK7AIzifr80
+UID:2024114765
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241128T170000
+DTEND;TZID=Europe/Berlin:20241128T185200
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXVe3iS_eAQwNOR6xjvwkUc
+UID:2024114743
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241204T160000
+DTEND;TZID=Europe/Berlin:20241204T205100
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZ_KZZq-RidsfjQva1HAijc
+UID:2024124751
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241210T160000
+DTEND;TZID=Europe/Berlin:20241210T161100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTlpW0qm7Zxpn_Uv9p32zqI
+UID:2024124800
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241210T161500
+DTEND;TZID=Europe/Berlin:20241210T170500
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWCFjYXQXDn48MoskXW5DBY
+UID:2024124813
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20241211T150000
+DTEND;TZID=Europe/Berlin:20241211T184600
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZf7Exk0a2K8_4x4JshXtuaw
+UID:2024124820
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250114T160000
+DTEND;TZID=Europe/Berlin:20250114T162600
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZebSANknrEO76NKi8y2E8es
+UID:2025015051
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250114T162900
+DTEND;TZID=Europe/Berlin:20250114T164200
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXD0rMBh7RwXlxq5Xb-Sgx4
+UID:2025015065
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250121T170000
+DTEND;TZID=Europe/Berlin:20250121T172000
+SUMMARY:Integrationsrat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZaVLcxE_T_PgUYohYunoUK4
+UID:2025015173
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250122T170000
+DTEND;TZID=Europe/Berlin:20250122T183500
+SUMMARY:Ausschuss für Kultur- und Stadtgestaltung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfziaZr0aKvX3CTrlmg_Oko
+UID:2025015068
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250123T170000
+DTEND;TZID=Europe/Berlin:20250123T202600
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZY7hRwJWjVywZAJwMD0LGVk
+UID:2025015069
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250128T160000
+DTEND;TZID=Europe/Berlin:20250128T160900
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZW1rzRy9oQJuOXeXSsDYR2Q
+UID:2025015070
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250129T170000
+DTEND;TZID=Europe/Berlin:20250129T180000
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZX9EXTJKrNy8jfGBJu8ZChg
+UID:2025015071
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250130T170000
+DTEND;TZID=Europe/Berlin:20250130T174000
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbWLTCgYm3z58O6oGjxwErA
+UID:2025015072
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250204T170000
+DTEND;TZID=Europe/Berlin:20250204T193700
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbL1iG7_Rsuyn4LRjoLSxro
+UID:2025025073
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250206T170000
+DTEND;TZID=Europe/Berlin:20250206T181300
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVgSmGlEWDd1MlAQHnXg6kQ
+UID:2025025074
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250211T160000
+DTEND;TZID=Europe/Berlin:20250211T160500
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZf8dY0Lsc5UpJ3NXIeCLVSY
+UID:2025025076
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250211T161200
+DTEND;TZID=Europe/Berlin:20250211T162700
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQaZWbSLYWAFvy5e2-1fH-c
+UID:2025025077
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250212T170000
+DTEND;TZID=Europe/Berlin:20250212T182800
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZe06ghOWiMXpkypWdjlxuM0
+UID:2025025079
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250225T160000
+DTEND;TZID=Europe/Berlin:20250225T161300
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZY5yJlkbDHTZMEHnwuRewVY
+UID:2025025081
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250226T163000
+DTEND;TZID=Europe/Berlin:20250226T164200
+SUMMARY:Rechnungsprüfungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfYqOA0iE0B_jawlduUA3A8
+UID:2025025075
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250226T170000
+DTEND;TZID=Europe/Berlin:20250226T204300
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRiUSMHUZHkttW0ZXZ1q1gQ
+UID:2025025080
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250305T160000
+DTEND;TZID=Europe/Berlin:20250305T170000
+SUMMARY:Unterausschuss Jugendhilfeplanung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXCuZO5G17FvZ02-nhwzLbA
+UID:2025035082
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250305T170000
+DTEND;TZID=Europe/Berlin:20250305T174000
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQPNC1lKyOJfsOwJeY6G6RM
+UID:2025035083
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250306T170000
+DTEND;TZID=Europe/Berlin:20250306T184300
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTm5LW1erc-0IJuUsR6psEE
+UID:2025035084
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250310T170000
+DTEND;TZID=Europe/Berlin:20250310T195700
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXEwC8z9Rveo9KM7pvKQgXk
+UID:2025035086
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250311T160000
+DTEND;TZID=Europe/Berlin:20250311T163000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZb3IiH_4oitumU8QS9o4jFA
+UID:2025035087
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250313T170000
+DTEND;TZID=Europe/Berlin:20250313T191100
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTsbvl_En6wG-dO2X86hPbQ
+UID:2025035090
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250317T170000
+DTEND;TZID=Europe/Berlin:20250317T191700
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZa5EekPC-Ae_9H5GypONVJw\n\nBemerkung:\nNach Absprache mit den Ausschussvorsitzenden findet am 17.03.2025 ab 17:00 Uhr eine gemeinsame Sitzung des Bau- und Planungsausschusses sowie des Ausschusses für Klima- Umwelt- und Naturschutz statt.
+UID:2025035210
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250317T170000
+DTEND;TZID=Europe/Berlin:20250317T191700
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQQf7ICoN9V5CG91E44lu5k\n\nBemerkung:\nNach Absprache mit den Ausschussvorsitzenden findet am 17.03.2025 ab 17:00 Uhr eine gemeinsame Sitzung des Bau- und Planungsausschusses sowie des Ausschusses für Klima- Umwelt- und Naturschutz statt.
+UID:2025035211
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250318T170000
+DTEND;TZID=Europe/Berlin:20250318T172100
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYoNtHn24qxJaDGm5jKVgkQ
+UID:2025035091
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250319T170000
+DTEND;TZID=Europe/Berlin:20250319T201000
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUhjhVs_UxiqTrj5lQ5i974
+UID:2025035092
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250320T170200
+DTEND;TZID=Europe/Berlin:20250320T192900
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZS1mmbwUmCudhS9j1Ec8CsA
+UID:2025035093
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250325T160000
+DTEND;TZID=Europe/Berlin:20250325T162700
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZ12WWPmIlAiPxEMQxMlbm0
+UID:2025035094
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250325T163000
+DTEND;TZID=Europe/Berlin:20250325T172800
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZV441eUwXKWlAP8MTCHVsac
+UID:2025035206
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250326T170000
+DTEND;TZID=Europe/Berlin:20250326T192200
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQAKGGKlw5_ciiKhsy9BHt0
+UID:2025035095
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250402T160000
+DTEND;TZID=Europe/Berlin:20250402T164500
+SUMMARY:Ausschuss für Bürgeranträge
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTmic7D-E9uj_xR_EHAV2oU
+UID:2025045224
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250402T170000
+DTEND;TZID=Europe/Berlin:20250402T201900
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbY2o4F-eR2ur9wgkVnVr3g
+UID:2025045096
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250408T160000
+DTEND;TZID=Europe/Berlin:20250408T160800
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZc9-EvSX549Gmbu2Jcp8uZA
+UID:2025045097
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250409T170000
+DTEND;TZID=Europe/Berlin:20250409T185100
+SUMMARY:Ausschuss für Kultur- und Stadtgestaltung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVspR-azMFjGxSB90Hy8ZJ4
+UID:2025045099
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250429T160000
+DTEND;TZID=Europe/Berlin:20250429T165500
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXrsy0hJh1MB3906vNSuS4s
+UID:2025045098
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250429T165200
+DTEND;TZID=Europe/Berlin:20250429T174500
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZV8Bo5Xul9xYpHnGE_yX8-0
+UID:2025045101
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250429T170200
+DTEND;TZID=Europe/Berlin:20250429T181000
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWtM3e5Iwh8NIR3iT78ZgLs
+UID:2025045102
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250430T160000
+DTEND;TZID=Europe/Berlin:20250430T171500
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZccrMjZyyxPaQFZz0NDhFZk
+UID:2025045245
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250430T170000
+DTEND;TZID=Europe/Berlin:20250430T185200
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfiy2uUCqQIfVXYnIgJ6w-g
+UID:2025045103
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250507T170000
+DTEND;TZID=Europe/Berlin:20250507T184500
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZkoovsMPJzRvwVbHngztHo
+UID:2025055104
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250508T170000
+DTEND;TZID=Europe/Berlin:20250508T194600
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZV7dyNrQaOHcuIU6EoBKF5Q
+UID:2025055105
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250512T170000
+DTEND;TZID=Europe/Berlin:20250512T180300
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXZQ45kA_9xoeJa8CGJpZsI
+UID:2025055108
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250521T170000
+DTEND;TZID=Europe/Berlin:20250521T200500
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdeUxDaBf8kVYWjrqHBkBbA
+UID:2025055109
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250522T170000
+DTEND;TZID=Europe/Berlin:20250522T192800
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRNiVq7YXXw4WfiEaOP87DU
+UID:2025055110
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250527T160000
+DTEND;TZID=Europe/Berlin:20250527T164200
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbzsfDo4kV57yNNqYXmrxII
+UID:2025055256
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250527T164300
+DTEND;TZID=Europe/Berlin:20250527T170500
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWBx35qB90EG-GZ7u5dt2eY
+UID:2025055111
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250528T163000
+DTEND;TZID=Europe/Berlin:20250528T165000
+SUMMARY:Unterausschuss Jugendhilfeplanung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYvZxcXa4uPTi809wD1P220
+UID:2025055112
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250528T170000
+DTEND;TZID=Europe/Berlin:20250528T181500
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfAkgzCiNqBlcz0M5SbhYp4
+UID:2025055113
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250603T170000
+DTEND;TZID=Europe/Berlin:20250603T175000
+SUMMARY:Integrationsrat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdnVVUHoC_xyvayXVin7P7M
+UID:2025065114
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250604T170000
+DTEND;TZID=Europe/Berlin:20250604T185300
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSaeX6QyOH4gopLolhnidxU
+UID:2025065115
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250605T170000
+DTEND;TZID=Europe/Berlin:20250605T181500
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXsuwbGRRl0gMtrw2sx0ZEM
+UID:2025065116
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250611T160000
+DTEND;TZID=Europe/Berlin:20250611T163200
+SUMMARY:Unterausschuss Flächennutzungsplan
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTAa7A617YQZ6_qHBOeEp9o
+UID:2025065117
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250611T170000
+DTEND;TZID=Europe/Berlin:20250611T185800
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUiI3SQAQstKMhL53xDD1nA
+UID:2025065118
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250612T170000
+DTEND;TZID=Europe/Berlin:20250612T193600
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZe9H8bt1e85jm4pjOYTVgXQ
+UID:2025065119
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250617T160000
+DTEND;TZID=Europe/Berlin:20250617T162800
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfsj3uomOvdyLfLfAzUtTvg
+UID:2025065120
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250617T163000
+DTEND;TZID=Europe/Berlin:20250617T165200
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUHgX_BiTYo4IfNPJGYR1oU
+UID:2025065121
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250625T170000
+DTEND;TZID=Europe/Berlin:20250625T195400
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYuZmpQ8ixX_lTix6Vdr5cE
+UID:2025065122
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250701T160000
+DTEND;TZID=Europe/Berlin:20250701T161400
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTwwrITKDEwOcS0n4tXjL4w
+UID:2025075123
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250707T170000
+DTEND;TZID=Europe/Berlin:20250707T172400
+SUMMARY:Ausschuss für Bürgeranträge
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRJPSeduGJgYgoZodC4ZHLM
+UID:2025075268
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250709T160000
+DTEND;TZID=Europe/Berlin:20250709T161500
+SUMMARY:Wahlausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZe4jJbpTmqXeXEdF2GtaEAU
+UID:2025075124
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250709T170000
+DTEND;TZID=Europe/Berlin:20250709T194300
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQt96z4TucfnybIIUlgSxHs
+UID:2025075125
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250729T160000
+DTEND;TZID=Europe/Berlin:20250729T162000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUB3FJtuzRe_CieCTOGnnUE
+UID:2025075126
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250729T162300
+DTEND;TZID=Europe/Berlin:20250729T165000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZU0Chvx5c3Mm5iLbot_G8fI
+UID:2025075252
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250826T160000
+DTEND;TZID=Europe/Berlin:20250826T161300
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZU16PNM_OJzeaocIHjYdmAE
+UID:2025085127
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250828T170000
+DTEND;TZID=Europe/Berlin:20250828T183700
+SUMMARY:Ausschuss für Kultur- und Stadtgestaltung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbSLW3F8zTxP-0l-ckuxjUM
+UID:2025085128
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250901T170000
+DTEND;TZID=Europe/Berlin:20250901T180500
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZR8DalwTf7QhHICHHg1c-Yw
+UID:2025095129
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250902T170000
+DTEND;TZID=Europe/Berlin:20250902T190600
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWbZV36vl4qDAOl78q-xy7c
+UID:2025095130
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250903T170000
+DTEND;TZID=Europe/Berlin:20250903T173400
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbRe6M1GNOh_RnPjqLSmVA4
+UID:2025095131
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250904T170000
+DTEND;TZID=Europe/Berlin:20250904T192900
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTxOXlYxC2NZhW38n6j0DKc
+UID:2025095132
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250909T160000
+DTEND;TZID=Europe/Berlin:20250909T161000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQekGs35dRvVyFHQ-W5oVK8
+UID:2025095133
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250909T161400
+DTEND;TZID=Europe/Berlin:20250909T163200
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdd7_HeGyYV5jP87HqCEVuk
+UID:2025095134
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250910T170000
+DTEND;TZID=Europe/Berlin:20250910T195000
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVObFZtX3CoW3geCat3zwvQ
+UID:2025095135
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250911T170000
+DTEND;TZID=Europe/Berlin:20250911T201000
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZV9QVABBQ-NdYcrKiaJsRDk
+UID:2025095136
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250916T160000
+DTEND;TZID=Europe/Berlin:20250916T161500
+SUMMARY:Wahlausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQMSiFPB0_Mol6zdB0iRlJw
+UID:2025095137
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250916T170000
+DTEND;TZID=Europe/Berlin:20250916T191300
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZd_L-9BOyBQJP-6VV8TFCpA
+UID:2025095138
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250917T170000
+DTEND;TZID=Europe/Berlin:20250917T175500
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXzGzY9bWHi2iuRh1Hk7HWs
+UID:2025095140
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250918T163000
+DTEND;TZID=Europe/Berlin:20250918T175000
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdjuN5GQEjbuGTzy4ldXFko
+UID:2025095141
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250918T180000
+DTEND;TZID=Europe/Berlin:20250918T201200
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZakTR2uPueDnjqqsKHZy3Bg
+UID:2025095142
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250923T160000
+DTEND;TZID=Europe/Berlin:20250923T163800
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUPmKxriiXk2haKL9MA1pKQ
+UID:2025095143
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250924T170000
+DTEND;TZID=Europe/Berlin:20250924T193200
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTh5y_wx14pekSzRb48dFuc
+UID:2025095144
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250929T170000
+DTEND;TZID=Europe/Berlin:20250929T173700
+SUMMARY:Ausschuss für Bürgeranträge
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXkMTba2VbRHhSaFjHcBYJM
+UID:2025095308
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250930T163000
+DTEND;TZID=Europe/Berlin:20250930T163500
+SUMMARY:Wahlausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZX7InV2in0xKCd5imVmmUak
+UID:2025095314
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20250930T170000
+DTEND;TZID=Europe/Berlin:20250930T180700
+SUMMARY:Integrationsrat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcdFsuZedh3n-jiAcXDENDk
+UID:2025095145
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251007T160000
+DTEND;TZID=Europe/Berlin:20251007T162600
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcXBqlyfKASj3_n5zl3l__4
+UID:2025105147
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251008T164500
+DTEND;TZID=Europe/Berlin:20251008T164800
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbEX-mucrmnkX1CGqpzOL1w
+UID:2025105321
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251008T170000
+DTEND;TZID=Europe/Berlin:20251008T200600
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZe3WTlE85_DlZZ_PWPGIOo8
+UID:2025105146
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251009T160000
+DTEND;TZID=Europe/Berlin:20251009T163900
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQDRXadZ4IrwFTuGP1ZHnwY
+UID:2025105148
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251027T170000
+DTEND;TZID=Europe/Berlin:20251027T180900
+SUMMARY:Rechnungsprüfungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdpkEvPHUzSeRSEtV0MrJ_U
+UID:2025105149
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251030T153000
+DTEND;TZID=Europe/Berlin:20251030T175300
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdRKL_0A_BoT548v9UigsJc
+UID:2025105313
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251030T164800
+DTEND;TZID=Europe/Berlin:20251030T165500
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZc_2ovDLs_yZAyR8gxiRNVY
+UID:2025105150
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251103T170000
+DTEND;TZID=Europe/Berlin:20251103T192400
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZU8-B8NBEdlNwp339Dqn4s0
+UID:2025115151
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251112T170000
+DTEND;TZID=Europe/Berlin:20251112T185500
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZaee3h8oOt1qK25PiWoRMmE
+UID:2025115152
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251117T170000
+DTEND;TZID=Europe/Berlin:20251117T192500
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfTpoaTYVeTJ4BKphD6CKkc
+UID:2025115153
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251118T160000
+DTEND;TZID=Europe/Berlin:20251118T165000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXFEkLF3LaWkFEKfR4P5F94
+UID:2025115154
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251118T170000
+DTEND;TZID=Europe/Berlin:20251118T175800
+SUMMARY:Kulturausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXl8wD5yb45lXMjXKNxYn-o
+UID:2025115341
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251119T170000
+DTEND;TZID=Europe/Berlin:20251119T182800
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfaUa9hlJSZFSSOU58_KLTM
+UID:2025115158
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251120T170000
+DTEND;TZID=Europe/Berlin:20251120T193400
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdbpOy3SVQoIkQbeMfVlVPA
+UID:2025115159
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251125T160000
+DTEND;TZID=Europe/Berlin:20251125T160700
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYYmGfxH0bfnszvy9taVDQU
+UID:2025115160
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251125T160900
+DTEND;TZID=Europe/Berlin:20251125T163800
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZeatg7Lb4dhxOsrs_9R6hLM
+UID:2025115161
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251126T170000
+DTEND;TZID=Europe/Berlin:20251126T182500
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdYYux9tYmAfUqJYAFujiVg
+UID:2025115162
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251127T170000
+DTEND;TZID=Europe/Berlin:20251127T191700
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSAs-99ZruhOkeqRDQq-kro
+UID:2025115163
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251201T170000
+DTEND;TZID=Europe/Berlin:20251201T180800
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdK69h350FPYoDYGyg0y2Ws
+UID:2025125172
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251202T170000
+DTEND;TZID=Europe/Berlin:20251202T204700
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUMXlLn1Te7RIaInQysPDtk
+UID:2025125165
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251203T170000
+DTEND;TZID=Europe/Berlin:20251203T185100
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfa_kb5sWK5qqzoEZxf-_F0
+UID:2025125166
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251204T170000
+DTEND;TZID=Europe/Berlin:20251204T174600
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZn76IiXZMm7D4busOeB1L0
+UID:2025125167
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251209T160000
+DTEND;TZID=Europe/Berlin:20251209T164700
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbE1tKs6DvhKdDzR6GA0fEk
+UID:2025125168
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251209T165000
+DTEND;TZID=Europe/Berlin:20251209T175000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTA5iFw4JYJN5rF8qwWMMCY
+UID:2025125169
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251210T153000
+DTEND;TZID=Europe/Berlin:20251210T153500
+SUMMARY:Wahlprüfungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdeeoC0JI3g6HUd3XOz2xps
+UID:2025125358
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251210T160000
+DTEND;TZID=Europe/Berlin:20251210T201800
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTLv7iw6N2C0V6YP2NQYEDc
+UID:2025125170
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20251217T150000
+DTEND;TZID=Europe/Berlin:20251217T181700
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXKbl4GsTwF1PtYQxvKo81Y
+UID:2025125171
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260112T170000
+DTEND;TZID=Europe/Berlin:20260112T171900
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTDiX4BzNRURikCpBakMIZM
+UID:2026015361
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260112T172400
+DTEND;TZID=Europe/Berlin:20260112T181400
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSqBob72oqM3tjBTZk9rfBg
+UID:2026015483
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260115T170000
+DTEND;TZID=Europe/Berlin:20260115T174600
+SUMMARY:Ausschuss für Chancengerechtigkeit und Integration
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSH449NdSpaguH-thxx7F08
+UID:2026015400
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260119T170000
+DTEND;TZID=Europe/Berlin:20260119T182000
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZd71Eo1f3ulEMDCromofiSk
+UID:2026015403
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260122T180000
+DTEND;TZID=Europe/Berlin:20260122T191200
+SUMMARY:Kulturausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTgMFDWQRLn3wCP1e3E7Ecc
+UID:2026015416
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260126T170000
+DTEND;TZID=Europe/Berlin:20260126T170900
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTLSnMoXxg4tHJmrdbfhmMQ
+UID:2026015362
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260126T171000
+DTEND;TZID=Europe/Berlin:20260126T173800
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXXTsK4yiY-yylM30fJ0Tcg
+UID:2026015382
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260128T170000
+DTEND;TZID=Europe/Berlin:20260128T180000
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZftfAX5Chw3xjGb84oeL6t0
+UID:2026015411
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260129T170000
+DTEND;TZID=Europe/Berlin:20260129T184900
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcvJ3WIGt468ypuVE9SmQ1g
+UID:2026015420
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260204T170000
+DTEND;TZID=Europe/Berlin:20260204T190700
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbefj28ulKadUjx5Sd8h464
+UID:2026025426
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260209T170000
+DTEND;TZID=Europe/Berlin:20260209T171100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRJvlL-pvtRshWKTwoQnlvU
+UID:2026025363
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260218T170000
+DTEND;TZID=Europe/Berlin:20260218T195500
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbcDquegUnEFYloaCYsIctE\n\nBemerkung:\nDie Sitzung des Rates wird als Livestream im Internet übertragen. \nDer Livestream wird über die Internetadresse teststadt.de/livestream zu erreichen sein und kurz vor Sitzungsbeginn freigeschaltet.
+UID:2026025432
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260223T170000
+DTEND;TZID=Europe/Berlin:20260223T172600
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZeBQTkk0bYMHDR-YO6eEVEA
+UID:2026025364
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260223T172900
+DTEND;TZID=Europe/Berlin:20260223T181200
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZeN4Z_MbBwrkwtWNgKracTo
+UID:2026025383
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260226T170000
+DTEND;TZID=Europe/Berlin:20260226T210000
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXC4IxuwxQHz1rKQyD_11Vo
+UID:2026025443
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260302T164500
+DTEND;TZID=Europe/Berlin:20260302T165100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZS5K9-v0XmRd-jdZ3d8e-ss
+UID:2026035542
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260302T170000
+DTEND;TZID=Europe/Berlin:20260302T183800
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUkj-1fu0ESj2yVWIfpWEIs
+UID:2026035455
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260304T170000
+DTEND;TZID=Europe/Berlin:20260304T182800
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQBO9Yk89D_uBqzcYqayO7A
+UID:2026035447
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260305T170000
+DTEND;TZID=Europe/Berlin:20260305T174300
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUlrpm-SxyxL8XGxm4yYpDM
+UID:2026035451
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260309T170000
+DTEND;TZID=Europe/Berlin:20260309T171300
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQsr27uda4Ilc-uAbFJC768
+UID:2026035365
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260311T170000
+DTEND;TZID=Europe/Berlin:20260311T181900
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZoWpaNT8aTDLQxiGm6wmoE
+UID:2026035396
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260312T170000
+DTEND;TZID=Europe/Berlin:20260312T195700
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZaPoLfULBRDaAghjGyx7YbU
+UID:2026035421
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260316T170000
+DTEND;TZID=Europe/Berlin:20260316T175500
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZamz_iyo_z4FUo6sMyE7PU8
+UID:2026035427
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260318T170000
+DTEND;TZID=Europe/Berlin:20260318T195200
+SUMMARY:Unterausschuss für Haushaltsstabilität und Steuerung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcDiqUQ0lmDNvvNZFJ9VR0U
+UID:2026035530
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260319T170000
+DTEND;TZID=Europe/Berlin:20260319T200200
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUyCoXJCVin6dvk4O4HAllM
+UID:2026035407
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260323T170000
+DTEND;TZID=Europe/Berlin:20260323T172500
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbsxlL39tVSX-kTV5IXDA-Y
+UID:2026035366
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260325T170000
+DTEND;TZID=Europe/Berlin:20260325T182400
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSxyJZRvlar9t4-7PmzirmQ
+UID:2026035433
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260413T170000
+DTEND;TZID=Europe/Berlin:20260413T185700
+SUMMARY:Ausschuss für öffentliche Sicherheit und Ordnung, Feuerwehr und Bevölkerungsschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWOirt1FZTLhv2lIwNT_kmM
+UID:2026045526
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260415T160000
+DTEND;TZID=Europe/Berlin:20260415T171100
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZwP0evra3WC81ezWPkDyAo
+UID:2026045567
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260415T171600
+DTEND;TZID=Europe/Berlin:20260415T184700
+SUMMARY:Kulturausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYFDVjt3LnRPswJWllj9UMk
+UID:2026045417
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260420T170000
+DTEND;TZID=Europe/Berlin:20260420T171300
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWBpfHylYOsEYsdZqdI7RCI
+UID:2026045367
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260420T180000
+DTEND;TZID=Europe/Berlin:20260420T185900
+SUMMARY:Unterausschuss für Haushaltsstabilität und Steuerung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZFn_O3I12u5umJvrCfm9Ao
+UID:2026045531
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260422T170000
+DTEND;TZID=Europe/Berlin:20260422T174900
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVILD6RLyjNXM0vicWrudnM
+UID:2026045404
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260423T170000
+DTEND;TZID=Europe/Berlin:20260423T182000
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYBUuhtMi-BAkBPJitFDvKE
+UID:2026045412
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260427T180000
+DTEND;TZID=Europe/Berlin:20260427T195500
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWUY4jaV5kEVNkg2fkWXopY
+UID:2026045551
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260429T170000
+DTEND;TZID=Europe/Berlin:20260429T172800
+SUMMARY:Rechnungsprüfungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSmrsukhpfULWLxdYRG8dVc
+UID:2026045458
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260430T170000
+DTEND;TZID=Europe/Berlin:20260430T185100
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZR6YT0TSxJY4_FlfCtuWRGc
+UID:2026045397
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260504T170000
+DTEND;TZID=Europe/Berlin:20260504T175300
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYe1m99L9BE2FwdpMR5gi0c
+UID:2026055385
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260504T175400
+DTEND;TZID=Europe/Berlin:20260504T183100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdn2CmWqSX8JdK5caEbZLjw
+UID:2026055368
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260506T170000
+DTEND;TZID=Europe/Berlin:20260506T201800
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZT3QfCIkk0PAf5l4Acsu3Ik
+UID:2026055408
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260507T170000
+DTEND;TZID=Europe/Berlin:20260507T193100
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdrdWsuM14K2jNClAxnLi08
+UID:2026055422
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260511T163000
+DTEND;TZID=Europe/Berlin:20260511T164200
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTRd31S02r-7J93n-gXi5Vw
+UID:2026055583
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260511T170000
+DTEND;TZID=Europe/Berlin:20260511T184900
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYApvFVUtHV3VNvSXfjgf2I
+UID:2026055428
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260518T170000
+DTEND;TZID=Europe/Berlin:20260518T174500
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQI-rVYil3PpcpNKH_NF0Cg
+UID:2026055386
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260518T174700
+DTEND;TZID=Europe/Berlin:20260518T182000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRaDTGL3faY997vK29Q1vRY
+UID:2026055369
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260520T170000
+DTEND;TZID=Europe/Berlin:20260520T202300
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZT5T1SmIdFhXDimsYDLPJ6Y
+UID:2026055434
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260527T170000
+DTEND;TZID=Europe/Berlin:20260527T175900
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXuOSReb6Ihh_Pbcm3aOvR4
+UID:2026055440
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260528T170000
+DTEND;TZID=Europe/Berlin:20260528T194700
+SUMMARY:Unterausschuss für Haushaltsstabilität und Steuerung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXPhBG20FDIrC3LscZ-22F8
+UID:2026055532
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260601T170000
+DTEND;TZID=Europe/Berlin:20260601T173000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXBdd996NKGhy5bIYvk3uKA
+UID:2026065387
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260601T171000
+DTEND;TZID=Europe/Berlin:20260601T173200
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfReK2WY2vISju4Cu0Zztgs
+UID:2026065370
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260601T180000
+DTEND;TZID=Europe/Berlin:20260601T195200
+SUMMARY:Ausschuss für öffentliche Sicherheit und Ordnung, Feuerwehr und Bevölkerungsschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZclXS4lYVMw4XohPqdFxQtA
+UID:2026065527
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260611T170000
+DTEND;TZID=Europe/Berlin:20260611T192800
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZuPxJnp3Pf8Jpjr92Dyfq4
+UID:2026065423
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260615T170000
+DTEND;TZID=Europe/Berlin:20260615T171400
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbyDPkjLUhmJpWTTnaXnETM
+UID:2026065371
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260617T170000
+DTEND;TZID=Europe/Berlin:20260617T184500
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZIA2tq9VDuPj3T1eoOtiIA
+UID:2026065448
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260618T170000
+DTEND;TZID=Europe/Berlin:20260618T190500
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYXkd_pmRm7GvG3EH8PrSeU
+UID:2026065452
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260622T170000
+DTEND;TZID=Europe/Berlin:20260622T184400
+SUMMARY:Ausschuss für Chancengerechtigkeit und Integration
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSkpR6F3IXLdtJxqZoBSfgc
+UID:2026065401
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260624T170100
+DTEND;TZID=Europe/Berlin:20260624T172000
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRqdPU9lT-GhzM61V2LWYko
+UID:2026065413
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260629T170000
+DTEND;TZID=Europe/Berlin:20260629T173600
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZUjh3P_OTOX621MmQKrZgZw
+UID:2026065372
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260629T173700
+DTEND;TZID=Europe/Berlin:20260629T175900
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdMRINVdJ2AfznlQNChIZH0
+UID:2026065388
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260629T180000
+DTEND;TZID=Europe/Berlin:20260629T204700
+SUMMARY:Unterausschuss für Haushaltsstabilität und Steuerung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTB8i87pUbzNrbYZmJVlQ60
+UID:2026065533
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260701T170000
+DTEND;TZID=Europe/Berlin:20260701T190000
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTqOPjvnk2i3I-kJqRdAd1M
+UID:2026075429
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260713T170000
+DTEND;TZID=Europe/Berlin:20260713T172100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVxhhYZuUDcyiW25TkTIWsE
+UID:2026075373
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260713T172600
+DTEND;TZID=Europe/Berlin:20260713T173700
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXa1_P2dPNAxQXAR--cGDlc
+UID:2026075389
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260715T170000
+DTEND;TZID=Europe/Berlin:20260715T211100
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWToSnaAbsTGvStGzkwmbEA
+UID:2026075435
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260803T170000
+DTEND;TZID=Europe/Berlin:20260803T172900
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRggSKjkQ_gHOcyWrZp7-z0
+UID:2026085374
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260824T170000
+DTEND;TZID=Europe/Berlin:20260824T171800
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfZEBc-ZnnhA6VfxhC55ORI
+UID:2026085618
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260831T170000
+DTEND;TZID=Europe/Berlin:20260831T183100
+SUMMARY:Ausschuss für öffentliche Sicherheit und Ordnung, Feuerwehr und Bevölkerungsschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZBLq-Jm4kNr9hlAYQWmOFA
+UID:2026085528
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260902T170000
+DTEND;TZID=Europe/Berlin:20260902T185500
+SUMMARY:Kulturausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZX4t09e9DK-Ti5thB8jcV68
+UID:2026095418
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260903T170000
+DTEND;TZID=Europe/Berlin:20260903T182100
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZV117TZAHMBrr1HqgI7Z61I
+UID:2026095456
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260907T170000
+DTEND;TZID=Europe/Berlin:20260907T171100
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZf_yrdOYW0-zw0NCyK1J1mI
+UID:2026095375
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260907T171500
+DTEND;TZID=Europe/Berlin:20260907T174500
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZY3zoClikHxP55MB_gaYgg4
+UID:2026095390
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260907T180000
+DTEND;TZID=Europe/Berlin:20260907T202000
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcdP2mKPpVbiKl1z6-gjJFM
+UID:2026095445
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260910T170000
+DTEND;TZID=Europe/Berlin:20260910T192100
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZdx-hyX55pg6bMUM7dzTJAg
+UID:2026095409
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260914T170000
+DTEND;TZID=Europe/Berlin:20260914T181800
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZd5pRUJDfWgkZNnEk9wjcbs
+UID:2026095398
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260916T170000
+DTEND;TZID=Europe/Berlin:20260916T175600
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZR7CKG4fuf9F9t5xtBKjTl8
+UID:2026095414
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260917T170000
+DTEND;TZID=Europe/Berlin:20260917T191700
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQMwxInNFmdesKxdPpwBU1w
+UID:2026095424
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260921T170000
+DTEND;TZID=Europe/Berlin:20260921T171400
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZzVm2StulSNE26W05eEV78
+UID:2026095376
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260921T170000
+DTEND;TZID=Europe/Berlin:20260921T182000
+SUMMARY:Ausschuss für Chancengerechtigkeit und Integration
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbivvWe65Fs2xtxN31I709Y
+UID:2026095402
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260923T153000
+DTEND;TZID=Europe/Berlin:20260923T162300
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbeR5YzZv-bDyreAPzeMjNw
+UID:2026095441
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260923T170000
+DTEND;TZID=Europe/Berlin:20260923T182800
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZesPQTHgD4br8_UrHRK66l0
+UID:2026095449
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260924T170000
+DTEND;TZID=Europe/Berlin:20260924T192700
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcc9YDufCpQ6vO-51mlieJs
+UID:2026095405
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260928T170000
+DTEND;TZID=Europe/Berlin:20260928T180900
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZatTkHEcZHSLHg50-CpzUUc
+UID:2026095453
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20260930T170000
+DTEND;TZID=Europe/Berlin:20260930T190200
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZV50RMwqIXZ4tLm_0WDizo
+UID:2026095430
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261005T170000
+DTEND;TZID=Europe/Berlin:20261005T171000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZS1IbUOYvgBhC4fiGF0HcHs
+UID:2026105377
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261012T180000
+DTEND;TZID=Europe/Berlin:20261012T190000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRfMP8z_hqkH962pcSaSfoE
+UID:2026105620
+LOCATION:Klärwerk, , Klärwerk
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261014T153000
+DTEND;TZID=Europe/Berlin:20261014T163000
+SUMMARY:Ausschuss für Bürgeranträge
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZWs9KsUjenSD-GCaI6mTTKg
+UID:2026105652
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261014T163000
+DTEND;TZID=Europe/Berlin:20261014T165000
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTv-ymQ7rd_FzsNZUx20LI0
+UID:2026105651
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261014T170000
+DTEND;TZID=Europe/Berlin:20261014T190000
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYCbBF660DpeNf2oUjJx_0A
+UID:2026105436
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261102T170000
+DTEND;TZID=Europe/Berlin:20261102T173000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVwQXJJPbYbSv-nTvckc_Jg
+UID:2026115378
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261102T173000
+DTEND;TZID=Europe/Berlin:20261102T180000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYJJCOpd45maPJYLs_sYZW0
+UID:2026115392
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261104T170000
+DTEND;TZID=Europe/Berlin:20261104T190000
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYpkYbL4WeoGel0qg2rdi9o
+UID:2026115437
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261105T170000
+DTEND;TZID=Europe/Berlin:20261105T185500
+SUMMARY:Ausschuss für Personal und Digitalisierung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVLI90gRrhrZrWQ4qlB2oo0
+UID:2026115457
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261109T170000
+DTEND;TZID=Europe/Berlin:20261109T175800
+SUMMARY:Kulturausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZakAaa6bY4r-i4pjgcdrGvs
+UID:2026115419
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261111T170000
+DTEND;TZID=Europe/Berlin:20261111T182800
+SUMMARY:Jugendhilfeausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZf4YO1_d_JgwGtLvbZWpZSw
+UID:2026115450
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261116T170000
+DTEND;TZID=Europe/Berlin:20261116T173000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYie3jeJkSnukUYmPIODXDc
+UID:2026115379
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261116T180000
+DTEND;TZID=Europe/Berlin:20261116T193400
+SUMMARY:Ausschuss für Klima-, Umwelt- und Naturschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQa2rOxoayssE1eN1Egxaow
+UID:2026115410
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261118T160000
+DTEND;TZID=Europe/Berlin:20261118T182500
+SUMMARY:Liegenschafts- und Steuerausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSC8G1gI1QutBPLl4_kOKS4
+UID:2026115415
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261119T170000
+DTEND;TZID=Europe/Berlin:20261119T191700
+SUMMARY:Bau- und Planungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcnYmnLcs4TKM3b6INYFYZg
+UID:2026115425
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261123T170000
+DTEND;TZID=Europe/Berlin:20261123T192500
+SUMMARY:Schulausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZQCEdeSI5v4kn_MadPNyk4
+UID:2026115399
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261125T170000
+DTEND;TZID=Europe/Berlin:20261125T174500
+SUMMARY:Sozialausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQeHz-VLP761_r8vk-v3GJ8
+UID:2026115454
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261126T170000
+DTEND;TZID=Europe/Berlin:20261126T204700
+SUMMARY:Ausschuss für Verkehrsinfrastruktur und -mobilität
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZa0aWvkQ1J7iLyvS1zX2-I0
+UID:2026115446
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261130T160000
+DTEND;TZID=Europe/Berlin:20261130T170000
+SUMMARY:Rechnungsprüfungsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZT_YkEg3AOkTb69CCrye2Ho
+UID:2026115459
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261130T170000
+DTEND;TZID=Europe/Berlin:20261130T173000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZf4ZR2gYsO0k4mYFrJPhMdc
+UID:2026115380
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261130T173000
+DTEND;TZID=Europe/Berlin:20261130T180000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZaH1KWU0PR4DgYJ9Ai6z2KQ
+UID:2026115393
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261202T170000
+DTEND;TZID=Europe/Berlin:20261202T184000
+SUMMARY:Ausschuss für Generationen und Gleichstellung
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSJSdIG71kNESHF54Rlol2o
+UID:2026125406
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261203T170000
+DTEND;TZID=Europe/Berlin:20261203T174600
+SUMMARY:Sportausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZW6GlxA2ywZ7g08S6NwVo0I
+UID:2026125442
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261207T170000
+DTEND;TZID=Europe/Berlin:20261207T200000
+SUMMARY:Ausschuss für öffentliche Sicherheit und Ordnung, Feuerwehr und Bevölkerungsschutz
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXGcAJGlxOpGkXvhPsasHds
+UID:2026125529
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261209T160000
+DTEND;TZID=Europe/Berlin:20261209T205100
+SUMMARY:Haupt- und Finanzausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVrSPyPz82-Hmb4x8xjGl44
+UID:2026125431
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261214T170000
+DTEND;TZID=Europe/Berlin:20261214T173000
+SUMMARY:Vergabe- und Betriebsausschuss
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfQ5CVlh7ZduxGgTYy8SSt8
+UID:2026125381
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261214T173000
+DTEND;TZID=Europe/Berlin:20261214T180000
+SUMMARY:Verwaltungsrat der Umweltbetriebe der Stadt Teststadt AöR
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZcPHXNRc1SaIC4kYRMFlPDA
+UID:2026125394
+LOCATION:Rathaus, 12345 Teststadt, Sitzungssaal
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20261008T152933Z
+DTSTART;TZID=Europe/Berlin:20261216T150000
+DTEND;TZID=Europe/Berlin:20261216T190000
+SUMMARY:Rat
+DESCRIPTION:Link zur Tagesordnung: https://ris.teststadt.de/tops/?__=UGhVM0hpd2NXNFdFcExjZfsd2cUybwjHOTox1FU6Pfs
+UID:2026125438
+LOCATION:Rathaus, 12345 Teststadt, Ratssaal
+END:VEVENT
+
+END:VCALENDAR
