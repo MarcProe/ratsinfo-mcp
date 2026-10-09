@@ -5,10 +5,13 @@ oder ``https://ratsinfo.example.net``. Fail-early: beim Start wird geprüft,
 dass es sich um eine kompatible SD.NET RIM-Instanz handelt; Name und
 Vorlagen-Periodisierung werden automatisch erkannt (best effort).
 
-Bietet vier MCP-Tools: ``recherche`` (Volltext-Recherche inkl. PDF-Volltexte,
+Bietet acht MCP-Tools: ``recherche`` (Volltext-Recherche inkl. PDF-Volltexte,
 optional mit OParl-Metadaten), ``pdf_as_markdown`` (PDF-Volltext als
 Markdown), ``meeting_documents`` (Sitzungs-/Vorgangs-Übersicht mit allen
-PDF-URLs) und ``find_meetings`` (Sitzungen aus dem ICS-Termin-Feed).
+PDF-URLs), ``find_meetings`` (Sitzungen aus dem ICS-Termin-Feed),
+``find_person`` (strukturierte Personensuche, OParl + HTML-Index),
+``person_steckbrief`` (vorgefertigte Personen-Steckbrief-Karte, Markdown/HTML)
+und ``committee_members`` (Gremien-Mitglieder) — plus ``terms_of_use``.
 """
 
 __version__ = "0.4.0"
